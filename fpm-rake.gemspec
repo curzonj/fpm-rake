@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "fpm-rake"
   gem.require_paths = ["lib"]
   gem.version       = FPM::Rake::VERSION
+
+  gem.add_dependency 'fpm'
 end
